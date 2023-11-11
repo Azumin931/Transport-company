@@ -1,0 +1,227 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+.nav{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+.dropdown-toggle{
+	text-decoration: none;
+}
+.dropdown-menu a {
+	text-decoration: none;
+	list-style: none;
+}
+.bodya{
+	color: white;
+	font-weight: bolder;
+	background-image: linear-gradient(to right, #d7278b, #020202);
+	text-align: center;
+}
+.bodya h1{
+	font-size: 50px;
+}
+.bodya p{
+	font-size: 25px;
+	margin-left: 10px;
+	margin-top: 30px;
+}
+.card-header{
+	background-color: #020202;
+}
+.card-header a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	padding: 20px;
+	
+}
+.bodya button{
+	background-color: transparent;
+}
+.bodya form{
+	margin-top: 30px;
+	border-radius: 30px;
+}
+.bodya select{
+	background-color: transparent;
+}
+.form-group{
+	background-color: transparent;
+}
+.card{
+	background-image: linear-gradient(to right, #d7278b, #020202);
+	border-radius: 50%;
+	text-align: center; 
+}
+.card-body input{
+	background-color: transparent;
+	color: #ffff;
+}
+.im{
+	position: relative;
+	margin-top: 50px;
+    margin-bottom: 100px;
+	margin-left: 20px;
+}
+.layer{
+	position: absolute;
+	left: 30;
+	bottom: 0;
+	color: #d7278b;
+}
+.row{
+	display: flex;
+	text-align: center;
+	justify-content: space-around;
+	margin-top: 100px;
+	
+}
+.col{
+	margin-left: 20px;
+}
+.col h1{
+font-weight: bolder;
+}
+.col img{
+	border-radius: 50%;
+}
+.vh img{
+width: 100%;
+height: 300;
+}
+.col-3 a{
+	text-decoration: none;
+	color: white;
+	display: flex;
+}
+.whi{
+	background-color: #d7278b;
+}
+.whi p{
+	color: #134077;
+}
+.pic_text{
+    text-align: center;
+}
+.cen{
+	text-align: center;
+	font-weight: bolder;
+}
+.cenz{
+	text-align: center;
+	margin-left: 20px;
+}
+.rw{
+	display: flex;
+}
+.coll{
+	margin-left: 20px;
+}
+.blu_back{
+	background-color: #94dbe7;
+	text-align: center;
+}
+.blu_back button{
+	align-items: center;
+}
+.form{
+	border-radius: 30px;
+	box-shadow: 0 0 20px 0px #94dbe7;
+	text-align: center;
+}
+.bod{
+	margin-left: 50px;
+}
+.form-group{
+	padding: 50px;
+}
+.form-group figcaption{
+	font-weight: bolder;
+}
+.form-group select{
+	margin-left: 50px;
+}
+.big{
+	font-weight: bolder;
+}
+.aqua{
+	background-color: #94dbe7;
+	border-radius: 30px;
+}
+.span{
+	color: red;
+}
+
+
+
+/*-----Phone-----*/
+@media(max-width: 600px)
+{
+   *{
+	padding: 0px;
+	margin:0px;
+}
+.bodya{
+	margin-left: 15px;
+
+}
+.bodya h1{
+	font-size: 37px;
+	text-align: left;
+	margin-left: 10px;
+}
+.bodya p{
+	font-size: 17px;
+	text-align: left;
+	margin-left: 10px;
+	margin-top: 15px;
+}
+.card-header a{
+	text-decoration: none;
+	color: white;
+	font-size: 12px;
+	padding: 1px;
+}
+.row{
+	display: block;
+	text-align: left;
+
+	margin-top: 100px;
+	
+}
+.col{
+    text-align: center;
+}
+.col-6{
+    text-align: center;
+}
+.see{
+	position: sticky;
+	bottom: 0;
+	right: 0;
+
+}
+.rw{
+	display: block;
+	margin-left: 15px;
+}
+.coll{
+	margin-left: 20px;
+}
+.col-3{
+    text-align: left;
+}
+.col-3 a{
+	font-size: 10px;
+}
+.bod{
+	margin-left: 30px;
+}
+.form{
+	text-align: left;
+}
+}
